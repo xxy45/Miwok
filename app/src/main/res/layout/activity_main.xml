@@ -5,31 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@mipmap/a"
     tools:context="com.example.xxxxxxxy.miwok.MainActivity">
 
     <TextView
         android:id="@+id/numbers"
         android:text="Numbers"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
+        android:background="@color/category_color"
          />
     <TextView
         android:id="@+id/family"
         android:text="Family"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/category_color"
         />
     <TextView
         android:id="@+id/colors"
         android:text="Colors"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/category_color"
         />
     <TextView
         android:id="@+id/phrases"
         android:text="Phrases"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/category_color"
         />
 
 </LinearLayout>
